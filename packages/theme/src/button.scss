@@ -1,26 +1,28 @@
 @import "../config/var.scss";
-.le-button {
+.fa-button {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-right: 12px;
-  padding: 6px 20px;
+  padding: 7px 20px;
+  margin: 0px 9px;
   border-radius: var(--default-radius);
   border: none;
   outline: none;
   cursor: pointer;
   font-size: 14px;
-  transition: transform 0.26s ease-in-out;
-
-  &.le-button-default {
-    background-color: var(--default-color);
+  transition: all 0.11s ease-in-out;
+  &:hover {
+    transform: translateY(-1px);
+  }
+  &.fa-button-default {
+    background-color: var(--default-color-lighter-1);
     &:hover {
-      background-color: var(--default-color-lighter-1);
+      background-color: var(--default-color);
     }
     &:active {
       background-color: var(--default-color-darker-1);
     }
   }
-  &.le-button-primary {
+  &.fa-button-primary {
     color: #fff;
     background-color: var(--primary-color);
     &:hover {
@@ -30,7 +32,7 @@
       background-color: var(--primary-color-darker-1);
     }
   }
-  &.le-button-success {
+  &.fa-button-success {
     color: #fff;
     background-color: var(--success-color);
     &:hover {
@@ -40,7 +42,7 @@
       background-color: var(--success-color-darker-1);
     }
   }
-  &.le-button-warning {
+  &.fa-button-warning {
     color: #fff;
     background-color: var(--warning-color);
     &:hover {
@@ -50,7 +52,7 @@
       background-color: var(--warning-color-darker-1);
     }
   }
-  &.le-button-danger {
+  &.fa-button-danger {
     color: #fff;
     background-color: var(--danger-color);
     &:hover {

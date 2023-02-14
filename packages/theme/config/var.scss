@@ -1,43 +1,45 @@
-$qianyun: #eaecf1; // 浅云
-$rimu: #6379f6; // 绀宇
-$tianshuibi: #5aa4ae; // 天水碧
-$zhuyantuo: #f29a76; // 朱颜砣
-$shiliuqun: #b13b2e; // 石榴裙
-$mushanzi: #a4abd6; // 暮山紫
+$lightgray: #C9CDD4; // 浅灰
+$blue: #165DFF; // 蓝
+$green: #00B42A; // 绿
+$orange: #FF7D00; // 橙色
+$red: #F53F3F; // 红
+$gray: #86909C; // 灰
 
-$default: $qianyun;
-$primary: $rimu;
-$success: $tianshuibi;
-$warning: $zhuyantuo;
-$danger: $shiliuqun;
-$info: $mushanzi;
+$default: $lightgray;
+$primary: $blue;
+$success: $green;
+$warning: $orange;
+$danger: $red;
+$info: $gray;
 
 :root {
-  --default-color: #eaecf1;
-  --primary-color: #6379f6;
-  --success-color: #5aa4ae;
-  --warning-color: #f29a76;
-  --danger-color: #b13b2e;
+  --default-color: #C9CDD4;
+  --primary-color: #165DFF;
+  --success-color: #00B42A;
+  --warning-color: #FF7D00;
+  --danger-color: #F53F3F;
+  --info-color: #86909C;
 
-  --default-color-lighter-1: #f3f4f7;
-  --primary-color-lighter-1: #7185f7;
-  --success-color-lighter-1: #64aab3;
-  --warning-color-lighter-1: #f29d7b;
-  --danger-color-lighter-1: #b93e30;
+  --default-color-lighter-1: #E5E6EB;
+  --primary-color-lighter-1: #4080FF;
+  --success-color-lighter-1: #23C343;
+  --warning-color-lighter-1: #FF9A2E;
+  --danger-color-lighter-1: #F76560;
+  --info-color-lighter-1: #A9AEB8;
 
-  --default-color-darker-1: #e1e4eb;
-  --primary-color-darker-1: #5971f5;
-  --success-color-darker-1: #54a0aa;
-  --warning-color-darker-1: #f08c63;
-  --danger-color-darker-1: #a9382c;
+  --default-color-darker-1: #A9AEB8;
+  --primary-color-darker-1: #0E42D2;
+  --success-color-darker-1: #009A29;
+  --warning-color-darker-1: #D25F00;
+  --danger-color-darker-1: #CB272D;
+  --info-color-darker-1: #6B7785;
 
-  --primary-color-hover: #e8ebfb;
+  --primary-color-hover: #E5E6EB;
 
-  --default-radius: 6px;
+  --default-radius: 2px;
 }
 :root {
-  --input-default-border-color: #dde0e5;
-  --input-hover-border-color: #dde0e5;
+  --input-default-border-color: #E5E6EB;
 
   --default-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }

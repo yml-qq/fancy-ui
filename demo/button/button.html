@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import { createApp } from "vue/dist/vue.esm-bundler.js";
+    import { EButton } from "../../dist/fancy-ui.esm.js";
+
+    createApp({
+      template: `
+        <EButton>单独引入</EButton>
+      `
+    })
+    .component(EButton.name, EButton)
+    .mount("#app");
+  </script>
+</body>
+</html>

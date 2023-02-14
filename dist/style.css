@@ -1,0 +1,107 @@
+:root {
+  --default-color: #E5E6EB;
+  --primary-color: #165DFF;
+  --success-color: #00B42A;
+  --warning-color: #FF7D00;
+  --danger-color: #F53F3F;
+  --info-color: #86909C;
+  --default-color-lighter-1: #F3F3F5;
+  --primary-color-lighter-1: #4080FF;
+  --success-color-lighter-1: #23C343;
+  --warning-color-lighter-1: #FF9A2E;
+  --danger-color-lighter-1: #F76560;
+  --info-color-lighter-1: #A9AEB8;
+  --default-color-darker-1: #C9CDD4;
+  --primary-color-darker-1: #0E42D2;
+  --success-color-darker-1: #009A29;
+  --warning-color-darker-1: #D25F00;
+  --danger-color-darker-1: #CB272D;
+  --info-color-darker-1: #6B7785;
+  --primary-color-hover: #E5E6EB;
+  --default-radius: 2px;
+}
+
+:root {
+  --input-default-border-color: #E5E6EB;
+  --default-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fa-button {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 8px 20px;
+  border-radius: var(--default-radius);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.11s ease-in-out;
+}
+
+.fa-button:hover {
+  transform: translateY(-1px);
+}
+
+.fa-button.fa-button-default {
+  background-color: var(--default-color-lighter-1);
+}
+
+.fa-button.fa-button-default:hover {
+  background-color: var(--default-color);
+}
+
+.fa-button.fa-button-default:active {
+  background-color: var(--default-color-darker-1);
+}
+
+.fa-button.fa-button-primary {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.fa-button.fa-button-primary:hover {
+  background-color: var(--primary-color-lighter-1);
+}
+
+.fa-button.fa-button-primary:active {
+  background-color: var(--primary-color-darker-1);
+}
+
+.fa-button.fa-button-success {
+  color: #fff;
+  background-color: var(--success-color);
+}
+
+.fa-button.fa-button-success:hover {
+  background-color: var(--success-color-lighter-1);
+}
+
+.fa-button.fa-button-success:active {
+  background-color: var(--success-color-darker-1);
+}
+
+.fa-button.fa-button-warning {
+  color: #fff;
+  background-color: var(--warning-color);
+}
+
+.fa-button.fa-button-warning:hover {
+  background-color: var(--warning-color-lighter-1);
+}
+
+.fa-button.fa-button-warning:active {
+  background-color: var(--warning-color-darker-1);
+}
+
+.fa-button.fa-button-danger {
+  color: #fff;
+  background-color: var(--danger-color);
+}
+
+.fa-button.fa-button-danger:hover {
+  background-color: var(--danger-color-lighter-1);
+}
+
+.fa-button.fa-button-danger:active {
+  background-color: var(--danger-color-darker-1);
+}
