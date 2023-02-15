@@ -1923,7 +1923,7 @@ function setDevtoolsHook(hook, target) {
     buffer = [];
   } else if (
     // handle late devtools injection - only do this if we are in an actual
-    // browser environment to avoid the timer handle stalling __test__ runner exit
+    // browser environment to avoid the timer handle stalling test runner exit
     // (#4815)
     typeof window !== "undefined" && // some envs mock window but not fully
     window.HTMLElement && // also exclude jsdom
