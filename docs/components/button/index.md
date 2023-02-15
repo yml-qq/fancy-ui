@@ -2,7 +2,7 @@
 常用操作按钮
 
 ## 基础用法
-基础的函数用法
+按钮的基础用法
 :::demo 使用 `size`、`type`、`icon`属性来自定义 Button 的样式。
 ```vue
 <template>
