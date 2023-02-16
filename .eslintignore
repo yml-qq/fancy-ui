@@ -2,4 +2,11 @@
 /dist
 */node_modules/*
 **/node_modules/**
-
+*.sh
+node_modules
+lib
+coverage
+*.md
+*.scss
+*.woff
+*.ttf
