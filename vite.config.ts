@@ -25,4 +25,4 @@ export default defineConfig({
       formats: ["es", "umd", "iife"] // 打包模式
     }
   }
-})
+});

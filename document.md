@@ -49,5 +49,4 @@
         - `config` 用于公共样式
         - `src` 单个组件样式
         - `index.scss` 导出整个组件样式
-    - `shims-vue.d.ts` 用于ts识别 `.vue`文件类型
 - `play` 用于开发环境测试组件

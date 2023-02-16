@@ -1,4 +1,4 @@
-import type { Itype } from "./interface"
+import type { Itype } from "./interface";
 import { PropType } from "vue";
 
 export const props = {
@@ -6,5 +6,4 @@ export const props = {
     type: String as PropType<Itype>,
     default: "default"
   }
-}
-
+};
