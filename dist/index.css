@@ -1,17 +1,17 @@
 :root {
-  --default-color: #E5E6EB;
+  --default-color: #C9CDD4;
   --primary-color: #165DFF;
   --success-color: #00B42A;
   --warning-color: #FF7D00;
   --danger-color: #F53F3F;
   --info-color: #86909C;
-  --default-color-lighter-1: #F3F3F5;
+  --default-color-lighter-1: #E5E6EB;
   --primary-color-lighter-1: #4080FF;
   --success-color-lighter-1: #23C343;
   --warning-color-lighter-1: #FF9A2E;
   --danger-color-lighter-1: #F76560;
   --info-color-lighter-1: #A9AEB8;
-  --default-color-darker-1: #C9CDD4;
+  --default-color-darker-1: #A9AEB8;
   --primary-color-darker-1: #0E42D2;
   --success-color-darker-1: #009A29;
   --warning-color-darker-1: #D25F00;
@@ -29,7 +29,8 @@
 .fa-button {
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 8px 20px;
+  padding: 5px 18px;
+  margin: 0px 9px;
   border-radius: var(--default-radius);
   border: none;
   outline: none;

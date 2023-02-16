@@ -3,6 +3,15 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 
+const rollupOptions = {
+  external: ["vue"],
+  output: {
+    globals: {
+      vue: "Vue"
+    }
+  }
+};
+
 export default defineConfig({
   plugins: [
     vue(), // 支持vue
@@ -17,7 +26,10 @@ export default defineConfig({
     }
   },
   build: {
+    rollupOptions,
     minify: false, // 压缩代码
+    sourcemap: true, // 输出单独 source 文件
+    cssCodeSplit: true,
     lib: {
       entry: "./packages/components/index.ts", // 打包文件入口
       name: "FancyUI", // 包名
