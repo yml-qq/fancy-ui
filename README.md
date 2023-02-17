@@ -1,23 +1,13 @@
 # fancy-ui :palm_tree: 
 
-#### 介绍
-FancyUI组件库，基于Vue3编写
+### 介绍
+FancyUI组件库，正在抽空开发中...
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 特性
+1. 基于Vite + Vue3 + TypeScript 进行开发
+2. 同时支持Jsx与Vue单文件组件
+3. 使用Eslint + Prettier + Husky 进行规范化语法简餐
+4. 基于Vitepress 构建文档网站
 
 #### 参与贡献
 
