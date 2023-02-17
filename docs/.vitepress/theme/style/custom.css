@@ -1,0 +1,17 @@
+.VPButton.medium {
+    border-radius: 8px !important;
+    border: none;
+}
+
+.VPDoc.has-aside .content-container {
+    max-width: 888px !important;
+}
+
+.VPImage {
+    max-width: 210px;
+    max-height: 210px;
+}
+
+/*.container {*/
+/*    max-width: 1280px !important;*/
+/*}*/

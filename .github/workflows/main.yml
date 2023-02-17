@@ -1,0 +1,49 @@
+name: CI
+on:
+  # Github Action 做回归验证：触发时机
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+# 任务
+jobs:
+  #  lint任务
+  Lint:
+    runs-on: ubuntu-latest
+    setups:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+      - name: Install dependencies
+        run: pnpm install
+      - name: Run Lint
+        run: pnpm run lint
+  #  单元测试任务
+  UnitTest:
+    #    指定运行环境
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        #        使用第三方脚本
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run test
+        run: pnpm run test:run
+  Build:
+    runs-on: ubuntu-latest
+    setups:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+      - name: Install dependencies
+        run: pnpm install
+      - name: Run Build
+        run: pnpm run build

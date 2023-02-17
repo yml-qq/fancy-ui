@@ -1,5 +1,7 @@
 import DefaultTheme from "vitepress/theme";
 import "vitepress-theme-demoblock/dist/theme/styles/index.css";
+import "./style/var.css";
+import "./style/custom.css";
 // @ts-ignore
 import { useComponents } from "./useComponents";
 import FancyUI from "../../../packages/components";
